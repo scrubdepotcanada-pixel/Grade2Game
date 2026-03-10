@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grade 2 Math Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <h1>Grade 2 Math Game</h1>
+    <p id="instruction">Answer the math question!</p>
+
+    <div class="scoreboard">
+      <span>Score: <strong id="score">0</strong></span>
+      <span>Lives: <strong id="lives">3</strong></span>
+    </div>
+
+    <div class="question-box">
+      <h2 id="question">2 + 3 = ?</h2>
+      <input id="answerInput" type="number" placeholder="Your answer" />
+      <button id="submitBtn">Submit</button>
+    </div>
+
+    <p id="feedback"></p>
+
+    <button id="startBtn">Start Game</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
